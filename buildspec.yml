@@ -8,7 +8,7 @@ env:
     BUILD_ENV: "prod"
     #webhookURL: "https://hooks.slack.com/services/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"
   secrets-manager:
-    key: arn:aws:secretsmanager:us-east-1:478997086104:secret:test_name-yDeWNA
+    testToken: arn:aws:secretsmanager:us-east-1:478997086104:secret:test_name-yDeWNA
 phases:
   install:
     commands:
